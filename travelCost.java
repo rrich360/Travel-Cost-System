@@ -3,17 +3,15 @@
 * the mpg of vehicle, ad the current price of
 * gas to calculate the total cost of the trip.
 */
-package travelcost;
+package travelCost;
 import java.util.Scanner;
 /**
  * 
  * 
  * /
- public class TravelCost {
+ public class travelCost {
    
-     /**
-      * 
-      * /
+  
     public static void main(String[]args) { 
           double distance;
           double mpg;
