@@ -1,0 +1,10 @@
+{
+  "title": "Travel Costs",
+  "cells": [
+    {
+      "type": "code",
+      "language": "java",
+      "data": "/*\n* This program uses total distance of the trip,\n* the mpg of vehicle, ad the current price of\n* gas to calculate the total cost of the trip.\n*/\npackage travelcost;\nimport java.util.Scanner;\n/**\n * \n * \n * /\n public class TravelCost {\n   \n     /**\n      * \n      * /\n    public static void main(String[]args) { \n          double distance;\n          double mpg;\n          double pricePerGallon;\n          double totalCost;\n        //double distance, mpg, pricePerGallon, totalCost;\n        Scanner in = new Scanner(system.in);\n        System.out.println(\"Enter the total distance in miles: \");\n        distance = in.nextDouble();\n        System.out.println(\"Enter the mpg for the vehicle: \");\n        mpg = in.nextDouble();\n        System.out.println(\"Enter the price of one gallon of gas: \");\n        pricePerGallon = in.nextDouble();\n        \n        totalCost = (distance/mpg)*pricePerGallon;\n        System.out.printf(\"The trip is going to cost $%5.2f\", totalCost);\n        System.out.println();\n    }\n   \n }\n \n \n \n "
+    }
+  ]
+}
